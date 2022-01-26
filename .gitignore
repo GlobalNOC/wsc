@@ -1,0 +1,5 @@
+build/
+dist/
+src/globalnoc_wsc.egg-info/
+*.py[oc]
+*.rpm
