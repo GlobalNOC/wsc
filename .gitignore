@@ -1,5 +1,14 @@
-build/
+# ignore dist tempfiles
 dist/
-src/globalnoc_wsc.egg-info/
-*.py[oc]
-*.rpm
+
+# ignore python cache files
+__pycache__/
+*.py[cod]
+
+# ignore poetry environment
+.venv/
+
+# ignore everything in .vscode directory except settings.json
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
