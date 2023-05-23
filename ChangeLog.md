@@ -2,6 +2,10 @@
 
 ## Revision History
 
+### 1.0.2 - 2023-05-22
+
+* add urllib3<2 version restriction
+
 ### 1.0.1 - 2023-04-01
 
 * format code with black
